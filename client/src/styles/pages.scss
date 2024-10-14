@@ -1,0 +1,20 @@
+.homePage {
+    background: url('https://asset.gecdesigns.com/img/wallpapers/beautiful-magical-misty-mountains-reflection-river-ultra-hd-wallpaper-4k-sr10012420-1706505766369-cover.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: 500px;
+
+        h1 {
+            font-size: 70px;
+        }
+    }
+}
